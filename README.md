@@ -32,14 +32,16 @@ https://wiki.au.deloitte.com/display/C2/Utility+Script%3A+Generate+Fake+Data
 ## Argument description
 
 optional arguments:
-  -h, --help            show this help message and exit
-  -n NUM_OF_ROWS, --num_of_rows NUM_OF_ROWS. Specify the number of rows. Only accepts INT.
-  -d DELIMITER, --delimiter DELIMITER. Specify the delimiter. For example: ',' / '|'.
-  -t {orders,product_list}, --dataset {orders,product_list}. Specify the dataset/table name. Currently allowed: orders, product_list
-  -o OUTPUTDIR, --outputdir OUTPUTDIR. Define output directory. Default will be ~/sample-data-sources/record-count
-  -p {yes,no}, --printdata {yes,no}. yes = Print on screen / no = Will not be. displayed/printed.
-  -w {yes,no}, --writetofile {yes,no}. yes = Write to File / no = do not write.
-  -m {yes,no}, --multiprocess {yes,no}. yes = Enable multiprocessing / no = Disable multiprocessing.
+```
+-h, --help            show this help message and exit
+-n NUM_OF_ROWS, --num_of_rows NUM_OF_ROWS. Specify the number of rows. Only accepts INT.
+-d DELIMITER, --delimiter DELIMITER. Specify the delimiter. For example: ',' / '|'.
+-t {orders,product_list}, --dataset {orders,product_list}. Specify the dataset/table name. Currently allowed: orders, product_list
+-o OUTPUTDIR, --outputdir OUTPUTDIR. Define output directory. Default will be ~/sample-data-sources/record-count
+-p {yes,no}, --printdata {yes,no}. yes = Print on screen / no = Will not be. displayed/printed.
+-w {yes,no}, --writetofile {yes,no}. yes = Write to File / no = do not write.
+-m {yes,no}, --multiprocess {yes,no}. yes = Enable multiprocessing / no = Disable multiprocessing.
+```
 
 ## Prerequisite
 
