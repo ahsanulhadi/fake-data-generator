@@ -1,6 +1,6 @@
 # =========================================
 # Script Name:  Generate_FakeDataFile.py
-# Written By:   Ahsanul Hadi | E: ahhadi@deloitte.com.au
+# Written By:   Ahsanul Hadi | E: adil.gt@gmail.com
 # Date:         Sep 17, 2018
 # Purpose:
 # Generate Fake data. Initially we will have limited datasets with fixed columns.
@@ -40,7 +40,7 @@ def get_current_time():
 
 # -------------------
 def set_target_dir():
-    home = str(Path.home())  #print(home)   # output = /Users/ahhadi
+    home = str(Path.home())  
     target_dir = home + "/sample-data-sources/record-count"
 
     if not os.path.exists(target_dir):
